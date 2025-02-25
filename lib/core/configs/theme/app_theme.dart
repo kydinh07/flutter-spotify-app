@@ -10,9 +10,10 @@ class AppTheme {
       fontFamily: 'Satoshi',
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
+          elevation: 0,
           backgroundColor: AppColors.primary,
           textStyle: TextStyle(
-            fontSize: 20,
+            fontSize: 16,
             fontWeight: FontWeight.bold,
           ),
           shape: RoundedRectangleBorder(
@@ -29,9 +30,10 @@ class AppTheme {
       fontFamily: 'Satoshi',
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
+          elevation: 0,
           backgroundColor: AppColors.primary,
           textStyle: TextStyle(
-            fontSize: 20,
+            fontSize: 16,
             fontWeight: FontWeight.bold,
           ),
           shape: RoundedRectangleBorder(

@@ -9,7 +9,7 @@ class BasicAppButton extends StatelessWidget {
   const BasicAppButton({
     required this.onPressed,
     required this.title,
-    required this.height,
+     this.height,
     super.key
     });
   
